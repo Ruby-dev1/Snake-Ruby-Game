@@ -1,0 +1,6 @@
+/build
+/vgame
+/dist
+/.env
+
+/Snake_RUBY.spec
