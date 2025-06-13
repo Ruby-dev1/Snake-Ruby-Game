@@ -21,45 +21,21 @@ This project is inspired by the classic snake game where the snake eats food, gr
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/snake-game.git
-cd snake-game
-2. Create a virtual environment (optional but recommended)
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-4. Run the Game
-bash
-Copy
-Edit
-python snake_game.py
+https://github.com/Ruby-dev1/Snake-Ruby-Game/
+cd Snake-Ruby-Game
+2. Install Dependencies
+pip install pygame
+3. Run the Game
+python main.py
 ⌨️ Controls
 Arrow Keys — Move the snake
 
 R — Restart after game over
 
-📸 Screenshots
-Gameplay:
-
-Game Over Screen:
-
 🗂️ Project Structure
-bash
-Copy
-Edit
 snake-game/
-├── snake_game.py         # Main game logic
-├── requirements.txt      # Dependencies
+├── main.py         # Main game logic
 ├── README.md             # Project documentation
-├── .gitignore            # Ignoring cache files
-├── Game 1.JPG            # Gameplay screenshot
-└── game 3.JPG            # Game over screenshot
 🧠 How It Works (Quick Summary)
 The game uses Pygame to create a grid-based canvas.
 
