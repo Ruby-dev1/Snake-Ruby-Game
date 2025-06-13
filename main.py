@@ -142,7 +142,6 @@ def main():
     screen = pygame.display.set_mode((CANVAS_WIDTH, CANVAS_HEIGHT))
     pygame.display.set_caption("Snake Game (Pygame Version)")
     clock = pygame.time.Clock()
-    print("Press R to restart or E to exit the game.")
 
     while True:
         for event in pygame.event.get():
